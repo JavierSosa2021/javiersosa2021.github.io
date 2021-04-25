@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    max-width:800px;
+    max-width:850px;
     margin:0 auto;
-    font-family:'Calibri Light', serif;
+    font-family:'Calibri Light', sans-serif;
 }
 header {
     background-color:rgb(211, 17, 17);
@@ -13,16 +12,16 @@ header {
     color:white;
     font-family:'Oswald', sans-serif;
     text-align:center;
-    font-size:larger;
+    font-size:25px;
 }
-#aPortalPic {
+#Portal_Picture {
     float:right;
     margin:5px;
-    box-shadow:0px 0px 15px 5px gray;
+    box-shadow:0px 0px 15px 7px gray;
     max-height:220px;
 }
 main {
-    margin:15px;
+    margin:25px;
 }
 h2 {
     font-family:'Oswald', sans-serif;
@@ -41,9 +40,9 @@ footer {
 footer a {
     color:white;
 }
-#aPortalLastUpdated {
+#Portal_Last_Updated {
     padding-top:0px;
     margin-top:-15px;
-    font-size:small;
+    font-size:15px;
     color:rgb(255, 252, 47);
 }
