@@ -24,6 +24,7 @@ footer {
 
 h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 h1 {
     font-size: 2rem;
