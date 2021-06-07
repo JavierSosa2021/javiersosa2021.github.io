@@ -9,7 +9,7 @@ body {
 }
 
 header,footer {
-    background-color:darkgreen;
+    background-color: rgb(211, 17, 17);
     padding:.3em;
     line-height: 1;
     border-radius:.67em;
