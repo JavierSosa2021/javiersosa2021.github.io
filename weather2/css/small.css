@@ -259,9 +259,3 @@ nav li:hover {
 .responsive li {
     display: block;
 }
-#Portal_Last_Updated {
-    padding-top:15px;
-    margin-top:-10px;
-    font-size:15px;
-    color:rgb(255, 252, 47);
-}
