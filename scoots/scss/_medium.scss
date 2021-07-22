@@ -1,0 +1,173 @@
+/* 35em is also 640 (if basefont is 16px) */
+@media only screen and (min-width: 40rem) {
+
+    /* https://wireframe.cc/cARbmG */
+    
+    header, nav, main, footer {
+        max-width: 45rem;
+        margin:auto;
+    }
+    
+    /*----------- BODY --------------*/
+    
+    .col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .col1{
+        display: grid;
+        grid-template-columns: auto 50%;
+    }
+    
+    .col2{
+        display: grid;
+        grid-template-columns: 175px auto;
+    }
+    
+    
+    .phone{
+        display: none;
+    }
+    
+    /*----------- HEADER --------------*/
+    
+    
+    header {
+        border-bottom: None;
+    } 
+    header img {
+        width: 150px;
+        margin-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    header h1{font-size: 2rem;}
+    header h2{font-size: 1.2rem;}
+    
+    
+    
+    /*----------- NAVIGATION --------------*/
+    
+    div#navWrapper {background-color: #20639B;}
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .ham{
+        display: none;
+    }
+    
+    /*----------- MAIN --------------*/
+    
+    
+    .herotext{
+        top: 20px;
+        font-size: 1.5rem;
+    }
+    .herotext h1{
+        font-size: 4rem;
+    }
+    
+    .colunms{
+        column-count: 3;
+    }
+    
+    .article{
+        margin: 20px;
+    }
+    
+    
+    /* ----------- Table ----------- */
+    
+    
+    
+    .chart {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+    
+    /* -----------  Weather  ---------- */
+    .weatherReport {
+        margin: 20px;
+        padding: 10px;
+        background-color: #ccc;
+    }
+    
+    .forecast{
+        width: 80%; 
+        margin: auto;
+    }
+    
+    #weatherforecast{
+        .card{
+            width: 18%;
+        }
+        .card img{
+            width: 70%;
+        }
+    }
+    
+    
+    /* ---------cards--------- */
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    
+      /*----------- ITEMS --------------*/
+    .items{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px 30px;
+      }
+    
+    /*----------- FOURM --------------*/
+    
+    
+    input[type=text], input[type=number], input[type=tel], input[type=email]{
+        width: 100%;
+      }
+    
+    textarea {
+        width: 100%;
+      }
+    
+    
+    /*----------- CONTACT --------------*/
+    .contact{
+        display: grid;
+        grid-gap: 20px;
+    }
+    .place{
+        background-color: white;
+        padding: 10px;
+    }
+    
+    .info{
+        margin: 10px;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    /*----------- FOOTER --------------*/
+    div#footerWrapper {background-color: #20639B;}
+    } 

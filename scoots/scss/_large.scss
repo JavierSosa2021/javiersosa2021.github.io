@@ -1,0 +1,58 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+
+body {
+  font-size: 20px;
+}
+
+/*----------- HEADER --------------*/
+
+
+header img {
+    width: 180px;
+}
+
+.herophoto img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+
+/*----------- NAVIGATION --------------*/
+
+
+/*----------- MAIN --------------*/
+
+.herotext{
+    text-align: center;
+}
+
+
+/*----------- ITEMS --------------*/
+  .items{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px 30px;
+  }
+
+
+
+
+/*----------- CONTACT --------------*/
+.contact{
+    grid-template-columns: 1fr 1fr;
+    font-size: 17px;
+}
+
+
+/*----------- FOOTER --------------*/
+
+    
+} /* end of media query */
